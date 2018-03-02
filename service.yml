@@ -1,3 +1,3 @@
-accessibility: private 
+accessibility: protected 
 containerPort: 5000
 autoscale: enabled
