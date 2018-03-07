@@ -12,9 +12,6 @@ import (
 )
 
 func main() {
-	time.Sleep(10 * time.Second)
-	panic(fmt.Errorf("Bug"))
-
 	agent := logger.All().WithWriter(logger.NewWriterFromEnv())
 
 	appStart := time.Now()
